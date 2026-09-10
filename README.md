@@ -7,5 +7,6 @@ Using a Two-Model (T-Learner) approach on the MineThatData randomized email data
 
 ### Repository Structure
 * `report.pdf`: A 1-page executive memo summarizing the findings and business recommendations.
-* `notebook.ipynb`: The Python codebase containing data setup, model training (Scikit-Uplift, Scikit-Learn), and evaluation.
-* `output/`: Contains the Qini curve visualizations and the calculated decile lift table.
+* `notebook.ipynb`: The Python codebase containing data setup, model training, and evaluation.
+* `qini_curve.png`: Visualization of the uplift model capturing more revenue than a naive model.
+* `decile_table.csv`: The calculated decile lift table proving the targeted ROI.
